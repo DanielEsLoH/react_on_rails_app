@@ -31,6 +31,7 @@ function PostForm({ post, headerText, onSubmit, buttonText }) {
                 title: e.target.value,
               })
             }
+            required
           />
         </div>
         <div>
@@ -59,6 +60,7 @@ function PostForm({ post, headerText, onSubmit, buttonText }) {
                 body: e.target.value,
               })
             }
+            required
           />
         </div>
         <div>
